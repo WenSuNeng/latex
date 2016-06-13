@@ -23,6 +23,7 @@
 \usepackage{amssymb}
 \setcounter{tocdepth}{3}
 \usepackage{graphicx}
+\usepackage{bbding}
 
 \usepackage{url}
 \urldef{\mailsa}\path|boliangzai@foxmail.com,djhe@sei.ecnu.edu.cn|
@@ -36,7 +37,7 @@
 \title{A light-weight secure protocol for small data dissemination in WSNs}
 
 % a short form should be given in case it is too long for the running head
-\titlerunning{Lecture Notes of ICST: Authors' Instructions}
+\titlerunning{a light-weight secure protocol}
 
 % the name(s) of the author(s) follow(s) next
 %
@@ -48,8 +49,9 @@
 %\thanks{Please note that the LNICST Editorial assumes that all authors have used
 %the western naming convention, with given names preceding surnames. This determines
 %the structure of the names in the running heads and the author %index.}%
-\and Daojing He}  %
-\authorrunning{Lecture Notes of ICST: Authors' Instructions}
+, Daojing He \Envelope
+}  %
+\authorrunning{Yan Wang et al.}
 % (feature abused for this document to repeat the title also on left hand pages)
 
 % the affiliations are given next
@@ -74,7 +76,7 @@
 \begin{abstract}
 
 
-This paper argues for a security scheme for security of WSNs, Wireless sensor networks. Our scheme is designed to be simple as well as has little impact on memory consumption and network traffic. The scheme is designed in light of issues derived from many different kinds of attacks.
+This paper argues for a security scheme for security of data dissemination discovery and dissemination in WSNs, Wireless sensor networks. Our scheme is designed to be simple as well as has little impact on memory consumption and network traffic. The scheme is designed in light of issues derived from many different kinds of attacks.
 
 \keywords{Data discovery and dissemination, Security, Wireless sensor networks, Efficiency}
 \end{abstract}
@@ -82,11 +84,10 @@ This paper argues for a security scheme for security of WSNs, Wireless sensor ne
 
 WSN consists of a lot of space-distributed sensors. To function a specific application,such as health-care, or obtain valuable information about physical world, Network manager needs every node work together though wireless channel.
 
-As shown in Fig.1. Normally, WSNs collect data to a prime location named a base station. Base station could be your computer which allows network manager to store and analyse later. Each powerful sensor node has several parts, a circuit which is able to be interfaced with other devices, a battery supplying power, a radio transceiver. WSNs are usually deployed in hostile or remote area with many kinds of topology, such as ring, star. 
+As shown in Fig.1. Normally, WSNs collect data to a prime location named a base station. Base station could be your computer which allows network manager to store and analyse collected data later. On the other hand, each powerful sensor node has several parts, a circuit which is able to be interfaced with other devices, a battery for supplying electrical power, a radio transceiver.Actually, WSNs are usually deployed in hostile or remote area with many kinds of topology, such as ring, star. 
 
-Obviously, it is very important that a message should be protected from vicious attackers. Thus broadcast authentication is a very common security mechanism in WSNs, since broadcast authentication is able to provide message with confidentiality and authentication. 
+Obviously, it is very important that a message should be protected from vicious attackers. And broadcast authentication is a very common security mechanism in WSNs, since broadcast authentication is able to provide message with confidentiality and authentication. 
 
-On the other hand 
 WSN is one of the major milestones in the field of communication. These networked collection of nodes take us a step closer to obtaining valuable about the physical world. WSN are used popularly in many applications like remote control and monitoring, construction safety systems, environmental monitoring, health care management, disaster management, srveilance operations, smart homes, habitat monitoring, indoor sensor networks, seismic monitoring of buildings etc[1].
 
 However, we argue every WSN, running any application, should be able to present hunman manager the ability to determine whether the WSN is functioning or not.
@@ -106,9 +107,6 @@ Consistency is the unique property of small dissemination protocol, making a who
 Although reliability is necessary for dissemination protocol, it makes networks robust to temporary disconnection and high packet loss, but We cannot lay too much emphasis on the importance of security.However, to the best of our knowledge, all existing data discovery and dissemination protocols only address reliable data transmission, but provide no security mechanism.
 
 Among existing dissemination protocols, Drip, Dip, and DHV are the most well known and widely used. These three protocols are all included in TinyOS distributions.
-
-II Secure and Dos-resistant Small Data Dissemination
-In order to make these protocols secure, this paper has the following main contributions:
 
 We first investigate the requirements for a secure broadcast mechanism in smart grids, and then show some security weakness and efficiency problems of existing broadcast authentication mechanisms.
 1)We firstly investigate the security problem in data discovery and dissemination protocol of WSNs and indicate the lack of authentication of disseminated data refers to a vulnerability. The energy in each sensor node is supplied by limited battery power or its energy harvesting capacity, thus it is significant to maintain energy to lengthen the operational lifetime of a sensor node.
