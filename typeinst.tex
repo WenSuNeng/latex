@@ -24,6 +24,7 @@
 \setcounter{tocdepth}{3}
 \usepackage{graphicx}
 \usepackage{bbding}
+\usepackage{cite}
 
 \usepackage{url}
 \urldef{\mailsa}\path|boliangzai@foxmail.com,djhe@sei.ecnu.edu.cn|
@@ -68,8 +69,8 @@
 % that is contained in the LNICST LaTeX support package.
 %
 
-\toctitle{Lecture Notes in Business Information Processing}
-\tocauthor{Authors' Instructions}
+\toctitle{A Light-weight secure protocol for small data dissemination in WSNs}
+\tocauthor{Yan Wang}
 \maketitle
 
 
@@ -81,14 +82,24 @@ This paper argues for a security scheme for security of data dissemination disco
 \keywords{Data discovery and dissemination, Security, Wireless sensor networks, Efficiency}
 \end{abstract}
 \section{Introduction}
-
+\cite{jour}
 WSN consists of a lot of space-distributed sensors. To function a specific application,such as health-care, or obtain valuable information about physical world, Network manager needs every node work together though wireless channel.
 
-As shown in Fig.1. Normally, WSNs collect data to a prime location named a base station. Base station could be your computer which allows network manager to store and analyse collected data later. On the other hand, each powerful sensor node has several parts, a circuit which is able to be interfaced with other devices, a battery for supplying electrical power, a radio transceiver.Actually, WSNs are usually deployed in hostile or remote area with many kinds of topology, such as ring, star. 
+Normally, WSNs collect data to a prime location named a base station. Base station could be your computer which allows network manager to store and analyse collected data later. On the other hand, each powerful sensor node has several parts, a circuit which is able to be interfaced with other devices, a battery for supplying electrical power, a radio transceiver.Actually, WSNs are usually deployed in hostile or remote area with many kinds of topology, such as ring, star. 
 
 Obviously, it is very important that a message should be protected from vicious attackers. And broadcast authentication is a very common security mechanism in WSNs, since broadcast authentication is able to provide message with confidentiality and authentication. 
 
-WSN is one of the major milestones in the field of communication. These networked collection of nodes take us a step closer to obtaining valuable about the physical world. WSN are used popularly in many applications like remote control and monitoring, construction safety systems, environmental monitoring, health care management, disaster management, srveilance operations, smart homes, habitat monitoring, indoor sensor networks, seismic monitoring of buildings etc[1].
+However , when message is been encrypted or authenticated , the cryptographic operations must be expensive for sensor node, since sensor node has limited  resources.  Hence, the attack can utilize this feature to launch Dos-attack.
+We provide two example to illustrate the above situation.
+
+For example, in a smart-grid, the control center may broadcast adjustment parameter to every node in grid, adjusting the function of WSN, for example , tune the temperature surveillance to light perception. 
+
+All of the sensor networks is with limited resources. cryptographic operations is heavy on this network. Adversaries can send a large number of bogus messages and consume their resources.
+
+when this situation, the attacker may have a lot of methods.
+
+Today, I want to try, try and try. Tomorrow I will also try.
+WSN is one of the major milestones in the field of communication. These networked collection of nodes take us a step closer to obtaining valuable about the physical world. WSN are used popularly in many applications like remote control and monitoring, construction safety systems, environmental monitoring, health care management, disaster management, surveillance operations, smart homes, habitat monitoring, indoor sensor networks, seismic monitoring of buildings etc[1].
 
 However, we argue every WSN, running any application, should be able to present hunman manager the ability to determine whether the WSN is functioning or not.
 
@@ -116,6 +127,13 @@ As shown in Fig. 1(b), Wsns consists of a lot of distrubited sensor nodes, manys
 We assume there is a loose time synchronization among the nodes with the help of some existing secure time synchronization scheme.
 
 
+\section{related work}
+\section{problem definition}
+\section{the proposed protocol}
+\section{security and efficiency analysis}
+\section{implementation and performance}
+\section{conclusion}
+\section{references}
 
 \section{Checking the PDF File}
 
