@@ -1,21 +1,33 @@
 \BOOKMARK [0][]{section*.1}{A Light-weight secure protocol for small data dissemination in WSNs}{}% 1
 \BOOKMARK [0][]{section*.1}{Yan Wang}{}% 2
 \BOOKMARK [1][]{section.2}{Introduction}{section*.1}% 3
-\BOOKMARK [1][]{section.3}{Network, Trust And Threat Models}{section*.1}% 4
-\BOOKMARK [1][]{section.4}{Checking the PDF File}{section*.1}% 5
-\BOOKMARK [2][-]{subsection.5}{Additional Information Required by the Publication Chair}{section.4}% 6
-\BOOKMARK [2][-]{subsection.6}{Copyright Forms}{section.4}% 7
-\BOOKMARK [1][]{section.7}{Paper Preparation}{section*.1}% 8
-\BOOKMARK [2][-]{section*.8}{Headings.}{section.7}% 9
-\BOOKMARK [3][-]{section*.9}{Lemmas, Propositions, and Theorems.}{section*.8}% 10
-\BOOKMARK [2][-]{subsection.10}{Figures}{section.7}% 11
-\BOOKMARK [2][-]{subsection.13}{Formulas}{section.7}% 12
-\BOOKMARK [2][-]{subsection.15}{Footnotes}{section.7}% 13
-\BOOKMARK [2][-]{subsection.17}{Program Code}{section.7}% 14
-\BOOKMARK [2][-]{subsection.18}{Citations}{section.7}% 15
-\BOOKMARK [2][-]{subsection.19}{Page Numbering and Running Heads}{section.7}% 16
-\BOOKMARK [1][]{section.20}{LNICST Online}{section*.1}% 17
-\BOOKMARK [1][]{section.21}{BibTeX Entries}{section*.1}% 18
-\BOOKMARK [1][]{section.23}{Advances in References}{section*.1}% 19
-\BOOKMARK [1][]{section*.24}{References}{section*.1}% 20
-\BOOKMARK [1][]{section.26}{Checklist of Items to be Sent to Publication Chairs}{section*.1}% 21
+\BOOKMARK [1][]{section.3}{related work}{section*.1}% 4
+\BOOKMARK [2][-]{subsection.4}{Existing Work on Broadcast Authentication}{section.3}% 5
+\BOOKMARK [2][-]{subsection.5}{Review on Message Dissemination}{section.3}% 6
+\BOOKMARK [1][]{section.6}{problem definition}{section*.1}% 7
+\BOOKMARK [2][-]{subsection.7}{Network Model}{section.6}% 8
+\BOOKMARK [2][-]{subsection.8}{detailed requirement}{section.6}% 9
+\BOOKMARK [2][-]{subsection.9}{Assumption}{section.6}% 10
+\BOOKMARK [1][]{section.10}{the proposed protocol}{section*.1}% 11
+\BOOKMARK [2][-]{subsection.11}{•}{section.10}% 12
+\BOOKMARK [1][]{section.12}{security and efficiency analysis}{section*.1}% 13
+\BOOKMARK [1][]{section.13}{implementation and performance}{section*.1}% 14
+\BOOKMARK [1][]{section.14}{conclusion}{section*.1}% 15
+\BOOKMARK [1][]{section.15}{references}{section*.1}% 16
+\BOOKMARK [1][]{section.16}{Checking the PDF File}{section*.1}% 17
+\BOOKMARK [2][-]{subsection.17}{Additional Information Required by the Publication Chair}{section.16}% 18
+\BOOKMARK [2][-]{subsection.18}{Copyright Forms}{section.16}% 19
+\BOOKMARK [1][]{section.19}{Paper Preparation}{section*.1}% 20
+\BOOKMARK [2][-]{section*.20}{Headings.}{section.19}% 21
+\BOOKMARK [3][-]{section*.21}{Lemmas, Propositions, and Theorems.}{section*.20}% 22
+\BOOKMARK [2][-]{subsection.22}{Figures}{section.19}% 23
+\BOOKMARK [2][-]{subsection.25}{Formulas}{section.19}% 24
+\BOOKMARK [2][-]{subsection.27}{Footnotes}{section.19}% 25
+\BOOKMARK [2][-]{subsection.29}{Program Code}{section.19}% 26
+\BOOKMARK [2][-]{subsection.30}{Citations}{section.19}% 27
+\BOOKMARK [2][-]{subsection.31}{Page Numbering and Running Heads}{section.19}% 28
+\BOOKMARK [1][]{section.32}{LNICST Online}{section*.1}% 29
+\BOOKMARK [1][]{section.33}{BibTeX Entries}{section*.1}% 30
+\BOOKMARK [1][]{section.35}{Advances in References}{section*.1}% 31
+\BOOKMARK [1][]{section*.36}{References}{section*.1}% 32
+\BOOKMARK [1][]{section.38}{Checklist of Items to be Sent to Publication Chairs}{section*.1}% 33

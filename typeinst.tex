@@ -98,39 +98,66 @@ All of the sensor networks is with limited resources. cryptographic operations i
 
 when this situation, the attacker may have a lot of methods.
 
-Today, I want to try, try and try. Tomorrow I will also try.
-WSN is one of the major milestones in the field of communication. These networked collection of nodes take us a step closer to obtaining valuable about the physical world. WSN are used popularly in many applications like remote control and monitoring, construction safety systems, environmental monitoring, health care management, disaster management, surveillance operations, smart homes, habitat monitoring, indoor sensor networks, seismic monitoring of buildings etc[1].
+In an effort to make the message broadcast protocols in smart grids secure, Our contributions in this paper is organized as follows.
 
-However, we argue every WSN, running any application, should be able to present hunman manager the ability to determine whether the WSN is functioning or not.
-
-Why drip is reliable?
-Drip provides a transport-layer interface to multiple channels of reliable message dissemination. Each component wishing to use Drip registers a specific identifier, which represents a reliable dissemination channel. Message received on that channel will be delivered directly to the component.
-
-But it does introduce extra complexity for a component that has several independetn variables which must be reliably synchronized among all nodes in the networks.
-Wireless sensor networks is usually deployed in outdoor environment, especially hostile environment to collect sensitive information. In battlefield. an adversary is able to inject vicious code images and take control of the entire WSNs.
-
-Since an administrator of a Wireless Sensor networks often reconfigures, queries and reprograms a WSNs, The above functions can be provided by dissemination protocol, which is used to deliver some small data, such as two-byte configuration parameters, to every node in networks.
-
-The small dissemination protocols add, delete, and modify these data by requesting each node exchange their stored data and eventually reach consistency over the networks.
-
-Consistency is the unique property of small dissemination protocol, making a whole WSN be immune to packet loss. A disconnected one also can get latest data image from neighbor nodes.
-
-Although reliability is necessary for dissemination protocol, it makes networks robust to temporary disconnection and high packet loss, but We cannot lay too much emphasis on the importance of security.However, to the best of our knowledge, all existing data discovery and dissemination protocols only address reliable data transmission, but provide no security mechanism.
-
-Among existing dissemination protocols, Drip, Dip, and DHV are the most well known and widely used. These three protocols are all included in TinyOS distributions.
-
-We first investigate the requirements for a secure broadcast mechanism in smart grids, and then show some security weakness and efficiency problems of existing broadcast authentication mechanisms.
 1)We firstly investigate the security problem in data discovery and dissemination protocol of WSNs and indicate the lack of authentication of disseminated data refers to a vulnerability. The energy in each sensor node is supplied by limited battery power or its energy harvesting capacity, thus it is significant to maintain energy to lengthen the operational lifetime of a sensor node.
 
-\section{Network, Trust And Threat Models}
-As shown in Fig. 1(b), Wsns consists of a lot of distrubited sensor nodes, manys network users and only a owner. This is a very simple and easy structure. The network uses use mobile devices such as PDAs and mobile phone to control the whole WSNs. The Network owner may be off-line, who has bootstrapped the keying materials for the mobile devices to enforce reprogramming privilege policy. It is assumed that the owner cannot be compromised by enemy or attacker and still has some capability of doing some computation and judgement, such as hash operation and  a lot of other cryptography techniques. We assume Deluge as the underlying code dissemination protocol. We also assume sensor nodes, for example using the scheme of [19]. To enable each node to check whether the subscription period of each authorize user has expired, we assume there is a loose time synchronization among the nodes with the help of some existing secure time synchronization scheme.
-We assume there is a loose time synchronization among the nodes with the help of some existing secure time synchronization scheme.
+2)second we balance the consumption of energy of every cryptographic techniques , select the most efficient methods or technique. We then design a secure, lightweight, robust method for smart grid. We may call it a extension of drip, our dissemination protocol for WSN.
 
+3) we also implement our scheme practically using telosb. Experimental results demonstrate its high efficiency in practice.
+
+In Section II, we review the related work and refine our work as well as possible. section III states the problem in WSNs we face, some assumption we have. section IV describes the security and efficiency performance of our protocol. Section VI describes the implementation and experimental performance in real sensor node. Finally, Section VII concludes this paper. 
 
 \section{related work}
+My work starts at a survey of broadcast, I read a lot of related work them.
+There is a lot of challenges on providing security in our smart grid. The primary one is the limited computing, communication and storage capabilities of receivers. A message authentication code (MAC) is usually an authentication tag derived by applying an authentication scheme and a secret key to a  message.
+\subsection{Existing Work on Broadcast Authentication}
+\subsection{Review on Message Dissemination}
 \section{problem definition}
+\subsection{Network Model}
+We consider a broadcast group involving one sender and a group of receivers, every message should be passed through insecure wireless channel. If there are cryptographic techniques on sensor node, we then have to perform  lightweight scheme. 
+
+\subsection{detailed requirement}
+ 	In addition to asymmetric mechanism that is needed for broadcast authentication, an efficient and secure broadcast authentication scheme for smart grids should still satisfy the following requirement: 
+ 	1) Individual authentication: The receiver should verify the received packets individually without depending on other packet, otherwise, the failure to verify a packet prevent the verification of subsequent packets.
+ 	
+ 	2) Robust to packet loss: The smart grid communication environment is not reliable; therefore, the scheme should be able to cope with the loss of packets during transmission.
+ 	
+ 	3) short authentication latency
+ 	
+ 	4) Low computation 
+ 	
+ 	5) receiver compromise tolerance
+ 	
+ 	6) Low power comsumption 
+ 	
+ 	7) Freshness
+ 	
+ 	8) scalability: the protocol should be able to be inclusive of new node joing the network.
+ 	
+ 	9) Freshness
+ 	
+ 	10) Low storage requirement
+ 	
+ 	11) Data confidentiality
+ 	
+ 	Ideally, we would like a scheme that recovers from any loss of packets, has no authentication latency, can individually authenticate packets and ensure data confidentiality, has negligible overhead, and has a low computation cost. In practice, such a perfect scheme is difficult to achieve, and a compromise needs to be found to reach a better achievement.
+ 	
+\subsection{Assumption}
+Our protocol believe in the following assumptions . 
+
+The sender cannot be compromised.
+
+the sender is the origin of all legitimate message updates. The sender has unlimited computational power compared with receiver.
+
+The receiver can perform a limited number of asymmetric cryptographic operations such as signature verification in TinyECC cite{}, but they cannot afford to perform too many such operations due to their limited computing capabilities.
+
 \section{the proposed protocol}
+Before giving the detailed description of the proposed protocol, we first provide an overview of our protocol.
+\subsection{ Overview of Our protocol}
+Compared to other asymmetric signature approaches, elliptic curve cryptographic is a well-behaved approach to public-key cryptography in terms of key size, computational efficiency, and communication efficiency. However, this signature is vulnerable to Dos attacks. To resist such Dos attacks, some researchers employed the Message Specific Puzzle (MSP) and included the puzzle solution in an message packet. In our protocol, we propose the Cipher Puzzle (CP) to integrate confidentiality and Dos-resistance. The computational effort of theses two puzzles for the sender are similiar but the difficulty for an adversary to construct.
 \section{security and efficiency analysis}
+
 \section{implementation and performance}
 \section{conclusion}
 \section{references}
@@ -144,7 +171,7 @@ SPS in India. Once the files have been worked upon, SPS sends a copy of
 the final pdf of each paper to its contact author. The contact author is
 asked to check through the final pdf to make sure that no errors have
 crept in during the transfer or preparation of the files. This should
-not be seen as an opportunity to update or copyedit the papers, which is
+not be seen as an opportunity to update or copy edit the papers, which is
 not possible due to time constraints. Only errors introduced during the
 preparation of the files will be corrected.
 
@@ -153,7 +180,7 @@ been sent to the Editorial by the Contact Publication Chair, i.e., roughly
 seven weeks before the start of the conference for conference
 proceedings, or seven weeks before the volume leaves the printer's, for
 post-proceedings. If SPS does not receive a reply from a particular
-contact author, within the timeframe given, then it is presumed that the
+contact author, within the time frame given, then it is presumed that the
 author has found no errors in the paper. The tight publication schedule
 of LNICST does not allow SPS to send reminders or search for alternative
 email addresses on the Internet.
