@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.11)  15 JUN 2016 14:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.11)  27 JUN 2016 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -413,37 +413,55 @@ Package hyperref Warning: bookmark level for unknown author defaults to 0.
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 
-(./typeinst.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
+LaTeX Warning: Citation `aspect' on page 3 undefined on input line 119.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+[3] [4]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+ [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
+ (./typeinst.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `typeinst.out' has not changed.
-(rerunfilecheck)             Checksum: 0FC3695E84BA9E58DDD6C9A46B101213;1079.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
+(rerunfilecheck)             Checksum: 63342D021D22D18113E29C1AC9A3ABA3;766.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  ) 
 Here is how much of TeX's memory you used:
- 6210 strings out of 493304
- 88734 string characters out of 6139871
- 180223 words of memory out of 5000000
- 9587 multiletter control sequences out of 15000+600000
+ 6215 strings out of 493304
+ 88743 string characters out of 6139871
+ 182362 words of memory out of 5000000
+ 9589 multiletter control sequences out of 15000+600000
  10579 words of font info for 42 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,5n,28p,810b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
- </root/.texmf-var/fonts/pk/ljfour/public/bbding/bbding10.600pk></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmtt9.pfb>
-Output written on typeinst.pdf (4 pages, 107442 bytes).
+ 29i,6n,28p,1651b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/brook/.texmf-var/fonts/pk/ljfour/public/bbding/bbding10.600pk></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt9.pfb>
+Output written on typeinst.pdf (6 pages, 119333 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 134 PDF objects out of 1000 (max. 8388607)
  116 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 29 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

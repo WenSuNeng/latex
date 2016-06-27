@@ -2,15 +2,11 @@
 \BOOKMARK [0][]{section*.1}{Yan Wang}{}% 2
 \BOOKMARK [1][]{section.2}{Introduction}{section*.1}% 3
 \BOOKMARK [1][]{section.3}{related work}{section*.1}% 4
-\BOOKMARK [2][-]{subsection.4}{Existing Work on Broadcast Authentication}{section.3}% 5
-\BOOKMARK [2][-]{subsection.5}{Review on Message Dissemination}{section.3}% 6
-\BOOKMARK [1][]{section.6}{problem definition}{section*.1}% 7
-\BOOKMARK [2][-]{subsection.7}{Network Model}{section.6}% 8
-\BOOKMARK [2][-]{subsection.8}{detailed requirement}{section.6}% 9
-\BOOKMARK [2][-]{subsection.9}{Assumption}{section.6}% 10
-\BOOKMARK [1][]{section.10}{the proposed protocol}{section*.1}% 11
-\BOOKMARK [2][-]{subsection.11}{ Overview of Our protocol}{section.10}% 12
-\BOOKMARK [1][]{section.12}{security and efficiency analysis}{section*.1}% 13
-\BOOKMARK [1][]{section.13}{implementation and performance}{section*.1}% 14
-\BOOKMARK [1][]{section.14}{conclusion}{section*.1}% 15
-\BOOKMARK [1][]{section*.15}{References}{section*.1}% 16
+\BOOKMARK [1][]{section.4}{Review on Message Dissemination}{section*.1}% 5
+\BOOKMARK [1][]{section.5}{PROBLEM DEFINITION}{section*.1}% 6
+\BOOKMARK [2][-]{subsection.6}{Network Model}{section.5}% 7
+\BOOKMARK [2][-]{subsection.7}{requirement}{section.5}% 8
+\BOOKMARK [2][-]{subsection.8}{Assumptions}{section.5}% 9
+\BOOKMARK [1][]{section.9}{THE PROPOSED PROTOCOL}{section*.1}% 10
+\BOOKMARK [2][-]{subsection.10}{Overview of Our Protocol}{section.9}% 11
+\BOOKMARK [1][]{section*.11}{References}{section*.1}% 12
